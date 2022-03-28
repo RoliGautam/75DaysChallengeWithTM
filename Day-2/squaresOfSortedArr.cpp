@@ -15,6 +15,7 @@
         return arr;
         
     }
+//Time complexity: 0(nlog(n))
 
 //without sort stl
     vector<int> sortedSquares(vector<int>& arr) {
@@ -35,3 +36,4 @@
         arr = temp;
         return arr;
     }
+//Time complexity: 0(n)
